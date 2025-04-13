@@ -24,7 +24,7 @@ private:
     std::size_t tree_size;
     Compare comp;
 
-    int heigth(Node* node) const;
+    int height(Node* node) const;
     int getBalanceFactor(Node* node) const;
     Node* rightRotate(Node* y);
     Node* leftRotate(Node* x);
@@ -115,7 +115,7 @@ public:
     iterator begin();
     iterator end();
     const_iterator begin() const;
-    const_iteratoe end() const;
+    const_iterator end() const;
     const_iterator cbegin() const;
     const_iterator cend() const;
 
