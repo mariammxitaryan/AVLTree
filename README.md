@@ -1,4 +1,3 @@
----
 
 ```markdown
 # AVL Tree Implementation with STL-like Interface
